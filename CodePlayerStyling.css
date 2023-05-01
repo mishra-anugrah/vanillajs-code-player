@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+hr {
+    opacity: 0.2;
+}
+
+#head-div {
+    background-color: #eeeeee;
+    width: 100vw;
+    height: 6vh;
+}
+
+#header-text {
+    font-size: 120%;
+    font-weight: bold;
+    float: left;
+    position: relative;
+    top: 30%;
+    left: 10px;
+}
+
+#lang-toggler-container {
+    width: fit-content;
+    padding: 10px;
+    overflow: auto;
+    margin: 0 auto;
+    position: relative;
+    left: -5%;
+}
+
+.lang-button {
+    float: left;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-right: none;
+    font-size: 90%;
+}
+
+.lang-button:active {
+    border: 1.5px solid #999;
+
+}
+
+/*.lang:hover {
+    background-color: #ccc;
+    cursor: default;
+}*/
+
+#html-button {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#output-button {
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.active-button {
+    background-color: #e8f2ff;
+}
+
+
+
+#codeplayer-container {
+    height: 91vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.lang-div {
+    height: 90.5vh;
+    flex: 1;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #888;
+    /*overflow: hidden;*/
+    box-sizing: border-box;
+}
+
+.code-area {
+    height: 87vh;
+    padding: 4px;
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: none;
+    font-size: 112%;
+    box-sizing: border-box;
+}
+
+#output-iframe {
+    height: 100%;/*90.5vh;*/
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}
+
+.lang-div-heading {
+    font-size: 110%;
+    font-weight: 530;
+}
+
+.lang-div-heading {
+    display: block;
+}
+
+.inactive-lang-div {
+    display: none;
+}
