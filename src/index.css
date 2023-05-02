@@ -43,13 +43,12 @@ hr {
 
 .lang-button:active {
     border: 1.5px solid #999;
-
 }
 
-/*.lang:hover {
-    background-color: #ccc;
-    cursor: default;
-}*/
+.lang-button-hover {
+    background-color: #ccc !important;
+    cursor: default !important;
+}
 
 #html-button {
     border-top-left-radius: 5px;
