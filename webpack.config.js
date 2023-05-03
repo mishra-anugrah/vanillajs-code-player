@@ -8,7 +8,6 @@ module.exports = {
     path: __dirname + "/dist",
     filename: "bundle.js",
   },
-  devtool: "eval-source-map",
   devServer: {
     contentBase: path.join(__dirname, "dist"),
   },
