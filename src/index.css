@@ -34,6 +34,7 @@ hr {
 }
 
 .lang-button {
+    user-select: none;
     float: left;
     border: 1px solid #ccc;
     padding: 5px;
